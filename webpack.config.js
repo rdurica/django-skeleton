@@ -21,7 +21,6 @@ module.exports = {
             {from: './node_modules/jquery-ui-dist', to: 'jquery-ui'},
             {from: './node_modules/@fortawesome/fontawesome-free', to: 'fontawesome'},
             {from: './node_modules/sweetalert2/dist', to: 'sweetalert2'},
-            {from: './node_modules/smartwizard/dist', to: 'smartwizard'},
             {from: './node_modules/bootstrap/dist', to: 'bootstrap'},
             {from: './node_modules/popper.js/dist', to: 'popper'},
         ]),
