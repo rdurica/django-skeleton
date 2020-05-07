@@ -1,5 +1,11 @@
 ### Django skeleton ###
+![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/rdurica/django-skeleton/django?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rdurica/django-skeleton?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/rdurica/django-skeleton?style=flat-square)
+![GitHub](https://img.shields.io/github/license/rdurica/django-skeleton?style=flat-square)
+
 Example full-stack skeleton for new projects.
+
 
 ### Key features ###
 - Prepared Project/Application structure
