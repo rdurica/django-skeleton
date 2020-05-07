@@ -1,0 +1,7 @@
+static/
+node_modules/
+.idea/
+media
+*__pycache__*
+example/settings.py
+_env/local.py

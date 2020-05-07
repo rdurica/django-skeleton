@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>{{ app.title }}</title>
+    <link rel="stylesheet" href="{% static 'example/fontawesome/css/all.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'example/sweetalert2/sweetalert2.min.css' %}">
+    <link rel="stylesheet" href="{% static 'example/smartwizard/css/smart_wizard.css' %}">
+    <link rel="stylesheet" href="{% static 'example/smartwizard/css/smart_wizard_theme_arrows.css' %}">
+    <link rel="stylesheet" href="{% static 'example/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'example/index.css' %}" type="text/css">
+    {% block scripts %}
+        <script src="{% static 'example/jquery/dist/jquery.min.js' %}"></script>
+        <script src="{% static 'example/jquery-ui/jquery-ui.js' %}"></script>
+        <script src="{% static 'example/sweetalert2/sweetalert2.min.js' %}"></script>
+        <script src="{% static 'example/smartwizard/js/jquery.smartWizard.min.js' %}"></script>
+        <script src="{% static 'example/bootstrap/js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'example/popper/popper.min.js' %}"></script>
+        <script src="{% static 'example/index.js' %}"></script>
+    {% endblock %}
+</head>
+<body>
+<main>
+    {% block content %}
+        {{ content }}
+    {% endblock %}
+</main>
+</body>
+</html>
