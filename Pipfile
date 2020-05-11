@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 v = {editable = true,version = "*"}
+django-sslserver = "*"
 
 [packages]
 django = "*"
@@ -16,6 +17,7 @@ djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
 django-simple-history = "*"
+social-auth-app-django = "*"
 
 [requires]
 python_version = "3.8"

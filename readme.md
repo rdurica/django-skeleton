@@ -23,7 +23,7 @@ Example full-stack skeleton for new projects.
 6. Configure your database & settings in <code>_env/local.py</code>
 7. Run migrations <code>manage.py migrate</code>
 8. Create administrator account <code>manage.py createsuperuser</code>
-9. Run local server <code>manage.py runserver</code>
+9. Run local server <code>manage.py runsslserver 127.0.0.1:8888</code>
 
 #### Frontend ####
 - [bootstrap 4](https://getbootstrap.com/docs/4.4/components/alerts/)
@@ -41,7 +41,7 @@ Example full-stack skeleton for new projects.
 
 #### API ####
 URL
-<code>http://127.0.0.1:8000/api/ </code>
+<code>https://127.0.0.1:8888/api/ </code>
 
 Example
-<code>curl -X GET http://127.0.0.1:8000/api/ -H 'Authorization: Token your-token-from-application' </code>
+<code>curl -X GET https://127.0.0.1:8888/api/ -H 'Authorization: Token your-token-from-application' </code>
