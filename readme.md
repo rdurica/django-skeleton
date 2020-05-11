@@ -38,6 +38,7 @@ Example full-stack skeleton for new projects.
 - [django-simple-history](https://django-simple-history.readthedocs.io/en/latest/)
 - [django-debug-toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/)
 - [django-mail-panel](https://github.com/scuml/django-mail-panel)
+- [social-auth-app-django]()
 
 #### API ####
 URL

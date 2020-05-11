@@ -1,0 +1,11 @@
+{
+  "types": [
+    {"type": "Added", "section":"New features", "hidden": false},
+    {"type": "Changed", "section":"Improvements & Changes", "hidden": false},
+    {"type": "Improved", "section":"Improvements & Changes", "hidden": false},
+    {"type": "Fixed", "section":"Bug fixes", "hidden": false},
+    {"type": "Removed", "section":"Others", "hidden": false},
+    {"type": "Deprecated", "section":"Others", "hidden": false},
+    {"type": "Security", "section":"Others", "hidden": false}
+  ]
+}
